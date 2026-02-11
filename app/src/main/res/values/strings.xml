@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KP2A Tile</string>
+    <string name="tile_label">KeePass2Android</string>
+    <string name="header_title">KeePass2Android</string>
+    <string name="header_subtitle">Quick Settings Tile</string>
+    <string name="btn_add_text">Add Tile</string>
+    <string name="toast_added_success">Tile added successfully!</string>
+    <string name="toast_already_exists">Tile is already in your settings.</string>
+    <string name="toast_cancelled">Request cancelled.</string>
+    <string name="toast_error">Failed to add tile. Please try again.</string>
+    <string name="toast_sync_failed">System busy. Tap again.</string>
+    <string name="error_archived_offline">KeePass2Android (Offline) is archived. Please restore it.</string>
+    <string name="error_archived_standard">KeePass2Android (Standard) is archived. Please restore it.</string>
+    <string name="error_not_installed">KeePass2Android is not installed.</string>
+    <string name="error_not_installed_redirect">KeePass2Android (Offline) not found. Redirecting to Play Store to install it…</string>
+    <string name="error_system_busy">System is busy. Please try later.</string>
+</resources>
