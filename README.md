@@ -1,6 +1,6 @@
 # KP2A Tile
 
-A lightweight Android Quick Settings Tile designed to launch **KeePass2Android**.
+A lightweight Android Quick Settings Tile app designed to launch **Keepass2Android**.
 
 ## Features
 * **Dual Detection:** Automatically detects and launches either the Offline or Classic version of KeePass2Android.
