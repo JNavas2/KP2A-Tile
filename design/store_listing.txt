@@ -1,0 +1,29 @@
+<b>KP2A Tile</b> is a lightweight utility designed for one-tap access to your password database. It adds a dedicated <b>Quick Settings Tile</b> to your Android device, allowing you to launch <b>KeePass2Android Password Safe</b> instantly from any screen.
+
+<b>Key Features:</b>
+<ul>
+    <li><b>Dual Detection:</b> Automatically detects and launches either the <b>Offline</b> (recommended) or <b>Classic</b> version of KeePass2Android.</li>
+    <li><b>Auto-Provisioning:</b> If KeePass2Android is not installed, the app automatically directs you to the Play Store to get it.</li>
+    <li><b>Clean & Fast:</b> Designed specifically for <b>Android 14 (API 34)</b> and later.</li>
+</ul>
+
+<b>How to Use:</b>
+<ol>
+    <li>Install and launch the app.</li>
+    <li>Tap the <b>"Add Tile"</b> button in the app.</li>
+    <li>Open your Quick Settings (swipe down twice from the top).</li>
+    <li>Find the new KP2A Tile (it may be at the end of your list).</li>
+    <li>Move or resize the tile to your preference.</li>
+    <li>Tap the tile anytime to open your password vault.</li>
+</ol>
+
+<b>Privacy & Security:</b>
+<ul>
+    <li><b>100% Free:</b> No ads, no tracking, and no hidden costs.</li>
+    <li><b>Open Source:</b> Check the source code on GitHub at any time (JNavas2/KP2A-Tile).</li>
+    <li><b>Zero Data Collection:</b> This app does not collect, share, or store any user information, ever.</li>
+</ul>
+
+<b>Support:</b> If you have questions or encounter issues, please visit our GitHub project page to open an Issue or start a Discussion.
+
+<i>Positive reviews are always appreciated!</i>
