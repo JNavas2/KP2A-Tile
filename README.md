@@ -1,6 +1,6 @@
 # KP2A Tile
 
-Lightweight Android **Quick Settings Tile** app designed to launch **Keepass2Android Password Safe**.
+Lightweight Android **Quick Settings Tile** app to launch **Keepass2Android Password Safe**.
 
 ## Features
 * **Dual Detection:** Automatically detects and launches either the **[Offline](https://play.google.com/store/apps/details?id=keepass2android.keepass2android_nonet)** (*recommended*) or **[Classic](https://play.google.com/store/apps/details?id=keepass2android.keepass2android)** version of **Keepass2Android**.
