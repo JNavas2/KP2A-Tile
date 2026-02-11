@@ -3,7 +3,7 @@
 Lightweight Android Quick Settings Tile app designed to launch **Keepass2Android**.
 
 ## Features
-* **Dual Detection:** Automatically detects and launches either the Offline or Classic version of KeePass2Android.
+* **Dual Detection:** Automatically detects and launches either the Offline or Classic version of Keepass2Android.
 * **Auto-Provisioning:** Directs the user to the Play Store (Offline version) if Keepass2Android is missing.
 
 ## Requirements
