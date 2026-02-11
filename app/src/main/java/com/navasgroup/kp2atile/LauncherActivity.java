@@ -26,8 +26,8 @@ import java.util.concurrent.Executors;
 
 public class LauncherActivity extends Activity {
 
-    private final Executor executor = Executors.newSingleThreadExecutor();
     private static final String TAG = "KP2A-Launcher";
+    private final Executor executor = Executors.newSingleThreadExecutor();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,7 +61,8 @@ public class LauncherActivity extends Activity {
             try {
                 pm.getPackageInfo(pkg, 0);
                 return true;
-            } catch (PackageManager.NameNotFoundException ignored) {}
+            } catch (PackageManager.NameNotFoundException ignored) {
+            }
         }
         return false;
     }
@@ -107,6 +108,7 @@ public class LauncherActivity extends Activity {
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         try {
             startActivity(intent);
-        } catch (Exception ignored) {}
+        } catch (Exception ignored) {
+        }
     }
 }
