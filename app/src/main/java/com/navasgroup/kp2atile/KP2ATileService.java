@@ -1,6 +1,6 @@
 /**
  * File: KP2ATileService.java
- * Description: Orchestrates KeePass2Android launch.
+ * Description: Orchestrates Keepass2Android launch.
  * Forces ACTIVE state in the system registry to prevent visual gray-out.
  * Copyright 2026, John Navas, All Rights Reserved
  */
