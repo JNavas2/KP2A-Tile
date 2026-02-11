@@ -1,10 +1,10 @@
 # KP2A Tile
 
-Lightweight Android Quick Settings Tile app designed to launch **Keepass2Android**.
+Lightweight Android Quick Settings Tile app designed to launch **Keepass2Android Password Safe**.
 
 ## Features
-* **Dual Detection:** Automatically detects and launches either the Offline or Classic version of Keepass2Android.
-* **Auto-Provisioning:** Directs the user to the Play Store (Offline version) if Keepass2Android is missing.
+* **Dual Detection:** Automatically detects and launches either the **[Offline](https://play.google.com/store/apps/details?id=keepass2android.keepass2android_nonet)** (*recommended*) or **[Classic](https://play.google.com/store/apps/details?id=keepass2android.keepass2android)** version of **Keepass2Android**.
+* **Auto-Provisioning:** Automatically directs the user to the **Play Store** (*recommended* Offline version) if Keepass2Android is missing.
 
 ## Requirements
 * **Android 14 (UpsideDownCake) and later**
@@ -12,13 +12,17 @@ Lightweight Android Quick Settings Tile app designed to launch **Keepass2Android
 ## Usage
 1. Install.
 2. Launch.
-3. Touch `Add Tile` (small tile is added at the end, can be moved and/or resized).
+3. Touch `Add Tile` (to add small tile at the end, which can be moved and/or resized).
 4. Touch the tile to launch Keepass2Android quickly in any context.
 5. *Positive review is alwaus appreciated.*
 
+## Problems or Questions
+* Open an **[Issue](https://github.com/JNavas2/KP2A-Tile/issues)**.
+* Start a **[Discussion](https://github.com/JNavas2/KP2A-Tile/discussions)**.
+
 ## Privacy & Security
-* Free (no ads or nags) and open source (check the code at any time).
-* No user information is collected, ever.
+* **Free** (no ads or nags) and **[open source](https://github.com/JNavas2/KP2A-Tile)** (check the code at any time).
+* **No** user information is collected, ever.
 
 ## License
 * MIT License
