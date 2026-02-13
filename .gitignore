@@ -1,15 +1,21 @@
+# Build artifacts and caches
 /build
 /captures
+.gradle/
+.cxx/
+.externalNativeBuild/
+
+# Local/Sensitive (DO NOT TRACK)
 /local.properties
+*.jks
+*.keystore
+
+# IDE-specific (Low noise)
 *.iml
-.cxx
-.DS_Store
-.externalNativeBuild
-.gradle
 .idea/
 .vscode/
-gradle/
-gradle.properties
-gradlew
-gradlew.bat
-local.properties
+.DS_Store
+
+# --- STOP! THE FOLLOWING ARE NOW TRACKED ---
+# We removed gradle/, gradlew, gradlew.bat, and gradle.properties 
+# from the ignore list to prevent another "scorched earth" disaster.
