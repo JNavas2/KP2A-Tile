@@ -9,6 +9,10 @@ Lightweight Android **Quick Settings Tile** app to launch **Keepass2Android Pass
 ## Requirements
 * **Android 14 (UpsideDownCake) and later**
 
+## What's New
+* v1.3: Supports activation when device locked
+* v1.2: Initial general release
+
 ## Usage
 1. Install.
 2. Launch.
