@@ -14,7 +14,7 @@ Lightweight Android **Quick Settings Tile** app to launch **Keepass2Android Pass
 * v1.2: Initial general release
 
 ## Usage
-1. Install.
+1. Install. (**Play**: https://play.google.com/store/apps/details?id=com.navasgroup.kp2atile)
 2. Launch.
 3. Touch `Add Tile` (to add small tile at the end, which can be moved and/or resized).
 4. Touch the tile to launch Keepass2Android quickly in any context.
