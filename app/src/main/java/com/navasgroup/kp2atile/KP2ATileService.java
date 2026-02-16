@@ -60,16 +60,18 @@ public class KP2ATileService extends TileService {
     }
 
     private void executeLaunch(Intent intent) {
-        unlockAndRun(() -> {
-            try {
-                PendingIntent pi = PendingIntent.getActivity(
-                        this, 0, intent,
-                        PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT);
-                startActivityAndCollapse(pi);
-            } catch (Exception e) {
-                showErrorToast(R.string.error_system_busy);
-            }
-        });
+        safeStart(intent);
+    }
+
+    private void safeStart(Intent intent) {
+        try {
+            PendingIntent pi = PendingIntent.getActivity(
+                    this, 0, intent,
+                    PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT);
+            startActivityAndCollapse(pi);
+        } catch (Exception e) {
+            showErrorToast(R.string.error_system_busy);
+        }
     }
 
     private void showErrorToast(int stringResId) {
